@@ -5,14 +5,13 @@ const Banner = () => {
 
   return (
     <>
-        <div className={styles.imgbox}>
-            <div>
-                <p data-aos='fade-down' className={styles.text}>We provide software solutions for startups and large businesses</p>
-              
-            </div>
-            
+      <div className={styles.imgbox}>
+        <div>
+          <p data-aos="fade-down" className={styles.text}>
+            Streamlining solutions for a sustainable future
+          </p>
         </div>
-        
+      </div>
     </>
   );
 };
