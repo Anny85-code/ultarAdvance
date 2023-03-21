@@ -1,8 +1,8 @@
 import React from "react";
 import styles from './AboutUsHome.module.css';
-import img1 from '../../assets/home/about1.png';
-import img2 from '../../assets/home/about2.png';
-import img3 from '../../assets/home/about3.png';
+import img1 from '../../assets/home/hiab.jpg';
+import img2 from '../../assets/home/excavator.jpeg';
+import img3 from '../../assets/home/payloader.jpeg';
 
 const AboutUsHome = () =>{
     return (
