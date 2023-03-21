@@ -1,6 +1,9 @@
-import seo from '../../assets/home/seo.png';
-import web from '../../assets/home/web.png';
 import construction from '../../assets/hendrexAsset/construction.png';
+import generalcontracting from '../../assets/hendrexAsset/png-contractors.png';
+import waste from '../../assets/hendrexAsset/wastepng.png';
+import generalcontract from '../../assets/hendrexAsset/genralpng.png';
+import warehousing from '../../assets/hendrexAsset/warehousepng.jpeg';
+import transport from '../../assets/hendrexAsset/transportpng.png';
 
 const data = [
   {
@@ -13,43 +16,43 @@ const data = [
   },
   {
     id: 2,
-    heading: 'Web migration services',
+    heading: 'General contracting',
     content:
-      'With our proper planning and testing, we can eliminate the risks of traffic loss, broken links etc.',
+      'This involves overseeing the construction of a project from start to finish.',
     to: '/',
-    icon: web,
+    icon: generalcontracting,
   },
   {
     id: 3,
-    heading: 'Corporate Web Design',
+    heading: 'Collection and transportation of waste',
     content:
-      'Our team can provide a new or revamped website included with built-in SEO, improved performance, usability and accessiblity.',
+      'This includes collecting and transporting waste materials to disposal facilities.',
     to: '/',
-    icon: seo,
+    icon: waste,
   },
   {
     id: 4,
-    heading: 'E-Commerce System',
+    heading: 'Project management',
     content:
-      'Draw in high-converting leads with responsive web designs. Our team has extensive experience in various langages.',
+      'This includes managing the planning, design, and construction of construction projects.',
     to: '/',
-    icon: seo,
+    icon: generalcontract,
   },
   {
     id: 5,
-    heading: 'Web Maintenance Service',
+    heading: 'Customs clearance',
     content:
-      'Our team can monitor your website for fault regularly and ensuring that everything is fully updated and responsive.',
+      'Managing the documentation and legal requirements for importing and exporting goods across international border.',
     to: '/',
-    icon: seo,
+    icon: warehousing,
   },
   {
     id: 6,
-    heading: 'UI/UX Design',
+    heading: 'Freight forwarding',
     content:
-      'Our team offers designs SaaS apps for web and mobile platforms, establishing visual, technical and emotional consistency in each interaction on all devices.',
+      'Coordinating the shipment of goods and materials from one location to another, typically across international borders.',
     to: '/',
-    icon: seo,
+    icon: transport,
   },
 ];
 
