@@ -34,6 +34,8 @@ const NavbarMain = () => {
     sessionStorage.setItem('NavbarMain', JSON.stringify(temp));
   };
 
+  const windowSize = window.innerWidth;
+
   return (
     <>
       <Navbar
@@ -51,7 +53,9 @@ const NavbarMain = () => {
       >
         <Container>
           <Navbar.Brand href="/" className={styles.logo}>
-            Hendrex Resources Limited
+            {windowSize > 450
+              ? 'Hendrex Resources Limited'
+              : 'Hendrex Resources'}
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
