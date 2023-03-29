@@ -1,4 +1,4 @@
-import img1 from '../../assets/caseStudy/1.png';
+import img1 from '../../assets/caseStudy/projectmanegement.jpeg';
 import img2 from '../../assets/caseStudy/2.png';
 import img3 from '../../assets/caseStudy/3.png';
 import img4 from '../../assets/caseStudy/4.png';
@@ -6,8 +6,8 @@ import img4 from '../../assets/caseStudy/4.png';
 const fakeData = [
   {
     id: 1,
-    designation: 'Marketing, Installation',
-    title: 'Four Dell Pentium 4 Servers',
+    designation: 'Project management',
+    title: 'Architecture and engineering',
     img: img1,
     category: 'financial',
   },
