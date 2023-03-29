@@ -18,33 +18,27 @@ const Footer = () => {
         <div className="container">
           <div className="row">
             <div className={`col-lg-3 col-sm-6 ${styles.contain}`}>
-              <p className={styles.logo}> CenturyByte </p>{' '}
+              <p className={styles.logo}> Hendrex Resources </p>{' '}
               <p className={styles.text}>
-                Stop wasting time and money designing and managing strategy that
-                doesn’ t get results.Happiness guaranteed!
+                Building the future requires a strong foundation, a clear
+                vision, and a trusted partner. We are committed to providing the
+                highest level of services to help our clients achieve their
+                goals and build a better tomorrow!
               </p>{' '}
               <p className={styles.text}> Quick service delivery! </p>{' '}
               <p className={styles.text}> Affordable prices! </p>{' '}
               <div className={styles.social_logo}>
                 <a
-                  href="https://web.facebook.com/profile.php?id=100087425060863"
+                  href="https://www.facebook.com/profile.php?id=100063462045932&mibextid=ZbWKwL"
                   rel="noopener noreferrer"
                   target="_blank"
                 >
                   <img src={fb} alt="fb" className={styles.img} />
                 </a>
-                <a
-                  href="https://www.linkedin.com/company/centurybyte-limited/?viewAsMember=true"
-                  rel="noopener noreferrer"
-                  target="_blank"
-                >
+                <a href="#instagram" rel="noopener noreferrer" target="_blank">
                   <img src={linkdin} alt="in" className={styles.img} />
                 </a>
-                <a
-                  href="https://www.instagram.com/centurybytelimited/"
-                  rel="noopener noreferrer"
-                  target="_blank"
-                >
+                <a href="#linkedIn" rel="noopener noreferrer" target="_blank">
                   <img src={insta} alt="insta" className={styles.img} />
                 </a>
               </div>
@@ -52,18 +46,18 @@ const Footer = () => {
             <div className={`col-lg-3 col-sm-6  ${styles.contain}`}>
               <p className={styles.head}> Services </p>{' '}
               <p className={styles.text}>
-                Km 7 Abak road, Uyo, Akwa Ibom state{' '}
+                Available 24 hours and 7 days a week{' '}
               </p>{' '}
-              <p className={styles.text}> centurybytelimited@gmail.com</p>{' '}
+              <p className={styles.text}> hendrexresource@yahoo.com</p>{' '}
               <p className={styles.text}> (234) 80 - 32668874 </p>{' '}
             </div>
             <div className={`col-lg-3 col-sm-6 ${styles.contain}`}>
               <p className={styles.head}> Head Office </p>{' '}
               <p className={styles.text}>
-                54 Mojsija Zecevica, Berane, Montenegro{' '}
+                Km 7 Abak road Uyo, Akwa Ibom State{' '}
               </p>{' '}
-              <p className={styles.text}> centurybytelimited@gmail.com </p>{' '}
-              <p className={styles.text}> (671) 555 - 0110 </p>{' '}
+              <p className={styles.text}> hendrexresource@yahoo.com </p>{' '}
+              <p className={styles.text}> (080) 7834 - 7821 </p>{' '}
             </div>
             <div className={`col-lg-3 col-sm-6 ${styles.contain}`}>
               <p className={styles.head}> Opening Hours </p>{' '}
