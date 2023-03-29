@@ -1,5 +1,5 @@
 import img1 from '../../assets/caseStudy/projectmanegement.jpeg';
-import img2 from '../../assets/caseStudy/2.png';
+import img2 from '../../assets/caseStudy/industrialwaste.jpeg';
 import img3 from '../../assets/caseStudy/3.png';
 import img4 from '../../assets/caseStudy/4.png';
 
@@ -9,14 +9,14 @@ const fakeData = [
     designation: 'Project management',
     title: 'Architecture and engineering',
     img: img1,
-    category: 'financial',
+    category: 'Construction',
   },
   {
     id: 2,
-    designation: 'Personnel, Wages',
-    title: 'Human Resource Management',
+    designation: 'Waste collection',
+    title: 'Recycling services',
     img: img2,
-    category: 'human resources',
+    category: 'Waste Management',
   },
   {
     id: 3,
