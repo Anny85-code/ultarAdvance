@@ -1,7 +1,9 @@
 import img1 from '../../assets/caseStudy/projectmanegement.jpeg';
-import img2 from '../../assets/caseStudy/industrialwaste.jpeg';
-import img3 from '../../assets/caseStudy/3.png';
-import img4 from '../../assets/caseStudy/4.png';
+import img2 from '../../assets/caseStudy/industrailwaste.jpeg';
+import img3 from '../../assets/caseStudy/tpandfrieght.jpeg';
+import img4 from '../../assets/caseStudy/oilandgas.jpg';
+import img5 from '../../assets/caseStudy/constructionM.jpeg';
+import img6 from '../../assets/caseStudy/IndustrialWarehousing.jpg';
 
 const fakeData = [
   {
@@ -20,31 +22,32 @@ const fakeData = [
   },
   {
     id: 3,
-    designation: 'System security, SEO',
-    title: 'Fundamentals of PKI',
+    designation: 'Freight forwarding',
+    title: 'Distribution and warehousing services',
     img: img3,
-    category: 'start up',
+    category: 'Logistics Services',
   },
   {
     id: 4,
-    designation: 'Efficient system, SEO',
-    title: 'Object Oriented Principles',
+    designation:
+      'Transportation and storage solutions for crude oil and natural gas',
+    title: 'Refining and marketing services for finished petroleum products',
     img: img4,
-    category: 'strategy',
+    category: 'Oil and Gas',
   },
   {
     id: 5,
-    designation: 'Recommendation, Financial',
-    title: 'Computers, Software, Windows, Internet',
-    img: img1,
-    category: 'financial',
+    designation: 'Building construction and renovation',
+    title: 'Turnkey solutions for all phases of a project',
+    img: img5,
+    category: 'Construction',
   },
   {
     id: 6,
-    designation: 'Personnel, HR',
-    title: 'System, Medicine, Innovation, Implementation',
-    img: img2,
-    category: 'human resources',
+    designation: 'Supply chain management',
+    title: 'Distribution and warehousing services',
+    img: img6,
+    category: 'Logistics Services',
   },
 ];
 export default fakeData;
