@@ -1,14 +1,16 @@
 import bannerImg from '../../assets/projectDetails/oilandgasmain.jpeg';
-import cardImg from '../../assets/projectDetails/card.png';
+// import cardImg from '../../assets/projectDetails/card.png';
 import pks from '../../assets/projectDetails/smalloilandgas.jpeg';
-import rmbanner from '../../assets/projectDetails/rmbanner.png';
-import rm from '../../assets/projectDetails/rm.webp';
+import rmbanner from '../../assets/projectDetails/cos1.jpg';
+import rm from '../../assets/projectDetails/cos22.jpg';
 import projectImg1 from '../../assets/projectDetails/secondimages.jpeg';
 import projectImg2 from '../../assets/projectDetails/oilandgasthirdimage.jpeg';
 import projectImg3 from '../../assets/projectDetails/waste3.jpeg';
 import projectImg4 from '../../assets/projectDetails/waste4.jpeg';
-// import projectImg5 from '../../assets/projectDetails/';
-// import projectImg6 from '../../assets/projectDetails/';
+import projectImg5 from '../../assets/projectDetails/oil3.jpg';
+import projectImg6 from '../../assets/projectDetails/oil4.jpg';
+import projectImg7 from '../../assets/projectDetails/cos3.jpeg';
+import projectImg8 from '../../assets/projectDetails/cos4.jpg';
 import projectImgf from '../../assets/projectDetails/warehouse4.jpg';
 import projectImgq from '../../assets/projectDetails/warehouse2.jpg';
 import projectImgflog from '../../assets/projectDetails/log3.webp';
@@ -19,8 +21,8 @@ import logistic from '../../assets/projectDetails/warehouse1.jpeg';
 import sslog from '../../assets/projectDetails/warehouse2.jpg';
 import ss from '../../assets/projectDetails/warehouse3.jpeg';
 import ssbg from '../../assets/projectDetails/warehouse1.jpeg';
-import oop from '../../assets/projectDetails/oop.jfif';
-import oopbg from '../../assets/projectDetails/oopbg.jpg';
+import oop from '../../assets/projectDetails/oil2.jpg';
+import oopbg from '../../assets/projectDetails/oil1.jpeg';
 
 const fakeData = [
   {
@@ -110,44 +112,44 @@ const fakeData = [
       client: ' Zigma Energy',
       categories: 'oil and gas',
       date: '2 July 2021',
-      tags: 'System, Banking, Design',
+      tags: 'Reservoir management',
       img: oop,
     },
     para1:
-      'Systems development is an important part of solving a business problem. It is important to understand the problem that is being solved and have ways in which the solution will follow the principles and procedures for the solution process. If there is no due diligence in the development of an information system that will solve a given problem, it will mean that there will be problems with the alignment with the business.',
+      'Solution: Our team provided a full suite of drilling services, including drilling rig setup, directional drilling, and well completion. We also managed transportation logistics for equipment and personnel to the remote site. .',
     para2:
-      'The solution will not align well with the system and there will be issues and problems that will arise with the development of the system. There is a need to ensure that there is better understanding of the requirements of the system and the solution it will offer to the business',
+      'By utilizing advanced drilling technologies and experienced personnel, we were able to successfully complete the drilling project on time and within budget, helping XYZ Energy to access valuable oil reserves.',
     para3:
-      'This paper will focus on software design analysis for a banking institution that will manage the banking processes. It is designed to show the ways in which the banking process will be carried out in the design of computer-based system. The paper will then focus on the development and assessment of the banking system',
+      'Our team provided comprehensive transportation and storage solutions for Zigma Energy, including transportation logistics, pipeline construction, and storage tank installation. We also provided ongoing maintenance and repair services for the pipeline and storage tanks to ensure ongoing functionality and safety',
     summary:
-      'In the project, there are objects and classes which will be integrated in the design of the system. Objects are the basic units from which object oriented programming is based. There are many issues and components that are used in the development of object oriented programming. Objects are important components in programing because they allow the programmers to relate real-world objects into programing environment.',
-    // img1: projectImg5,
-    // img2: projectImg6,
+      'By providing end-to-end transportation and storage solutions, we were able to help Zigma Energy maximize the value of their oil reserves and ensure a reliable supply of crude oil to the refinery.',
+    img1: projectImg5,
+    img2: projectImg6,
   },
   {
     id: 5,
     banner: rmbanner,
     title: 'Project Details',
-    heading: 'One of our product that makes us stand out',
+    heading: 'Construction Services - Building Construction',
     subHeading:
-      'Computers, Software, Windows, Internet, Workplace, Laptop, Mobility, Office',
+      'Apex Real Estate Development wanted to construct a mixed-use building in a densely populated urban area with limited space and zoning restrictions',
     card: {
-      client: 'Constance Robert',
-      categories: 'Software',
+      client: 'Apex Real Estate Development',
+      categories: 'Building construction',
       date: '1 April 2020',
-      tags: 'Windows, Internet, Workplace',
+      tags: 'Building, renovation',
       img: rm,
     },
     para1:
-      'Widget Wonders require wireless internet connection for access of company resources by sales department staff. Software applications such as word processors, spreadsheet and internet will be required by manufacturing department. The graphics and computer aided design (CAD) software are also needed by research and development department while MIS department will require extra processor and memory to support administrative tasks. Other requirements include the most appropriate operating system that can support all the departments and system security software.',
+      'Solution: Our team provided comprehensive building construction services, including project management, design and engineering, and construction oversight. We worked closely with the client to ensure compliance with zoning regulations and obtain necessary permits. To address the challenge of limited space, we utilized advanced construction techniques such as prefabrication and modular construction, which allowed us to build efficiently and minimize disruption to the surrounding community.',
     para2:
-      'Microsoft office software will be needed to provide word processing, excel spreadsheet for manufacturing department. Microsoft office will also provide ms outlook for internet access within manufacturing department. The same Microsoft office will provide PowerPoint presentation software for the sales department so that they can make presentations at sales meeting and conferences (Collins 2013)',
+      'Our team also implemented a robust safety program and environmental management plan to ensure that the project was completed safely and responsibly.',
     para3:
-      'Because of their high number, the sales department staff will need laptop computers with Bluetooth and Wi-Fi software features to enable every employee to access wireless network. The laptops will also enhance their mobility',
+      'Results: Our team successfully completed the construction project on time and within budget, despite the challenges posed by the urban location and limited space. The mixed-use building provided much-needed housing and commercial space in the area, and has received positive feedback from the community',
     summary:
-      'The recommendations given above are based on the minimum required specifications. The recommendations will also last for three years given that new software technology upgrade do come to the market within the time frame of 2 to 3 years. The company will therefore be in a position to use the recommended software until the fresh ones are introduced to the market in approximately three years time after when it can decide to go for new purchase or upgrade. The change of technology will call for the company to embrace for change as accompany which applies advanced technologies to enhance its competitive position',
-    img1: projectImg1,
-    img2: projectImg2,
+      'The client was satisfied with the quality of work and our ability to overcome the project challenges, and has engaged us for additional construction projects.',
+    img1: projectImg7,
+    img2: projectImg8,
   },
   {
     id: 6,
