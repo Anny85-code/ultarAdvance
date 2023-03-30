@@ -23,7 +23,7 @@ const fakeData = [
   {
     id: 3,
     designation: 'Freight forwarding',
-    title: 'Distribution and warehousing services',
+    title: 'Logistics Services - Supply Chain Management',
     img: img3,
     category: 'Logistics Services',
   },
