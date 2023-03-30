@@ -1,10 +1,10 @@
-import bannerImg from '../../assets/projectDetails/banner.png';
+import bannerImg from '../../assets/projectDetails/oilandgasmain.jpeg';
 import cardImg from '../../assets/projectDetails/card.png';
-import pks from '../../assets/projectDetails/pks.webp';
+import pks from '../../assets/projectDetails/smalloilandgas.jpeg';
 import rmbanner from '../../assets/projectDetails/rmbanner.png';
 import rm from '../../assets/projectDetails/rm.webp';
-import projectImg1 from '../../assets/projectDetails/project1.png';
-import projectImg2 from '../../assets/projectDetails/project2.png';
+import projectImg1 from '../../assets/projectDetails/secondimages.jpeg';
+import projectImg2 from '../../assets/projectDetails/oilandgasthirdimage.jpeg';
 import projectImgf from '../../assets/projectDetails/imgf.png';
 import projectImgq from '../../assets/projectDetails/imgq.jpeg';
 import hrbg from '../../assets/projectDetails/hrbg.jpg';
@@ -21,24 +21,25 @@ const fakeData = [
     id: 1,
     banner: bannerImg,
     title: 'Project Details',
-    heading: 'One of our best product that makes us stand out',
+    heading: 'Oil and Gas Services - Drilling Services',
     subHeading:
-      'Windows, Computers, System, Software, Choice, Accounting, Printer, VISTA',
+      'XYZ Energy needed to access oil reserves in a remote location with difficult terrain and limited infrastructure',
     card: {
-      client: 'Paula Tekle',
+      client: 'XYZ Energy',
       categories: 'Installation',
       date: '23 June 2017',
-      tags: 'system, software, updating',
+      tags: 'Transportation and storage ',
       img: pks,
     },
+
     para1:
-      'Darts is a sporting goods company that has most of its outlets in the western states. The company computers are connected to each other via network. A network has 273 computers and it consists of the following hardware systems.8 Windows Server 2003 R2 Servers 2 Linux Servers running Red Hat Linux Enterprise 20 computers running MAC OS X version 10.4 Tiger 32 computers with Windows XP installed 126 computers with Windows Vista installed 95 computers with Windows 7 installed With advancements in the growth of the company, the network requires upgrading and modifications. Therefore, the company is focusing on the upgrade of servers, computer systems, and software programs.',
+      'Solution: Our team provided a full suite of drilling services, including drilling rig setup, directional drilling, and well completion. We also managed transportation logistics for equipment and personnel to the remote site. To overcome the challenge of the remote location and difficult terrain, we utilized advanced drilling technologies such as extended reach drilling and managed pressure drilling, which allowed us to drill deeper and more efficiently while minimizing the risk of well control issues.',
     para2:
-      'The Accounting department of the company has Windows XP installed in all of the computers. The accounting director of the department wants to upgrade the operating system Windows 7. The department would get certain benefits through an upgrade of the operating system that are discussed as follows',
+      ' Our experienced personnel also worked closely with the client to ensure that safety protocols were followed and environmental impact was minimized.',
     para3:
-      'First, the Windows 7 provides a great user-friendly interface for all the users to perform their desired tasks. The design of taskbar and system trays are much user-friendly compared to the Windows XP.',
+      'The client was satisfied with the quality of work and our ability to overcome the challenges posed by the remote location, and has since engaged us for additional drilling projects in the region.',
     summary:
-      'However, anyone who was more comfortable with the Windows XP outlook can choose an option to change design of Windows 7 back to XP. Other interesting features that are most beneficial for the businesses are the desktop slideshow and screen savers. The accounting department users may activate the desktop slideshow to most recent financial statements and thus, keep a regular check. The bookkeeping and other accounting functions flourish with this feature of the Windows 7',
+      'Results: By utilizing advanced drilling technologies and experienced personnel, we were able to successfully complete the drilling project on time and within budget, helping XYZ Energy to access valuable oil reserves. The project was completed with zero lost time incidents, demonstrating our commitment to safety and environmental responsibility',
     img1: projectImg1,
     img2: projectImg2,
   },
