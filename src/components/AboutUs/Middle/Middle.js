@@ -1,8 +1,8 @@
 import React from "react";
 import styles from './Middle.module.css';
-import logo1 from '../../../assets/aboutUs/middle1.png';
-import logo2 from '../../../assets/aboutUs/middle2.png';
-import logo3 from '../../../assets/aboutUs/middle3.png';
+import logo1 from '../../../assets/aboutUs/aboutcons.png';
+import logo2 from '../../../assets/aboutUs/aboutwaste.png';
+import logo3 from '../../../assets/aboutUs/oilabout.png';
 
 const Middle = () =>{
     return (
@@ -32,10 +32,11 @@ const Middle = () =>{
             >
               <div className={styles.box}>
                 <img src={logo1} alt="" />
-                <p className={styles.head}>Web Design</p>
+                <p className={styles.head}>Construction Services</p>
                 <p className={styles.content}>
-                  We will analyze the product and the market to determine the
-                  best strategy for your product..
+                  Our Construction department provide a variety of services
+                  related to the design, construction, and renovation of
+                  buildings and infrastructure.
                 </p>
               </div>
             </div>
@@ -43,10 +44,11 @@ const Middle = () =>{
             <div data-aos="fade-up" className="col-md-4">
               <div className={styles.box}>
                 <img src={logo2} alt="" />
-                <p className={styles.head}>Digital Marketing</p>
+                <p className={styles.head}>Waste Management Services</p>
                 <p className={styles.content}>
-                  We will discuss your business problems and recommend the best
-                  marketing tools to solve them.
+                  Our Waste management companies provide a range of services
+                  related to the collection, transportation, and disposal of
+                  waste materials.
                 </p>
               </div>
             </div>
@@ -54,10 +56,10 @@ const Middle = () =>{
             <div data-aos="fade-left" className="col-md-4">
               <div className={styles.box}>
                 <img src={logo3} alt="" />
-                <p className={styles.head}>UI/UX Expertise</p>
+                <p className={styles.head}>Oil and Gas Services</p>
                 <p className={styles.content}>
-                  We will analyze the situation and figure out why your product
-                  or service is lacking conversions.
+                  Our Oil and gas companies provide services related to the
+                  exploration, extraction, and production of oil and gas.
                 </p>
               </div>
             </div>
