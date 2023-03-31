@@ -2,9 +2,9 @@ import React, { useEffect } from "react";
 import styles from './IndividualService.module.css';
 import { useLocation } from "react-router-dom";
 import data from './data';
-import timer from '../../assets/individualService/timer.png';
-import lock from '../../assets/individualService/tren.png';
-import det from '../../assets/individualService/det.png';
+import timer from '../../assets/individualService/workethic1.png';
+import lock from '../../assets/individualService/worker1.png';
+import det from '../../assets/individualService/projectcommit1.png';
 
 const IndividualService = () =>{
     const { search } = useLocation(); 
