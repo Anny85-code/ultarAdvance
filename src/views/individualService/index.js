@@ -1,7 +1,7 @@
 import React from "react";
 import SubBanner from '../../components/SubBanner';
 import Footer from "../../components/Footer";
-import bg from '../../assets/R.jfif';
+import bg from '../../assets/service1.jpeg';
 import IndividualService from "../../components/IndividualService";
 
 const individualServices = () => {
