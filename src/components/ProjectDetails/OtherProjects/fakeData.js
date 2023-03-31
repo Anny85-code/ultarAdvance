@@ -1,46 +1,51 @@
-import image1 from '../../../assets/projectDetails/testimonial1.png';
-import image2 from '../../../assets/projectDetails/testimonial2.png';
-import image3 from '../../../assets/projectDetails/testimonial2.png';
+import image1 from '../../../assets/projectDetails/bottom1.jpg';
+import image2 from '../../../assets/projectDetails/bottom2.jpg';
+import image3 from '../../../assets/projectDetails/bottom3.jpg';
+import image4 from '../../../assets/projectDetails/cos2.jpg';
+import image5 from '../../../assets/projectDetails/bottom5.jpg';
+import image6 from '../../../assets/projectDetails/bottom6.jpg';
 
 export const fakeData = [
   {
     id: 1,
     img: image1,
-    title: 'Budgeting',
+    title: 'Oil and Gas',
     content:
-      'All businesses start out with three main elements prominently featured in the general make up of the endeavor.',
+      "Seismic surveys: The use of specialized equipment to create images of rock formations below the earth's surface to identify potential oil and gas reserves..",
   },
   {
     id: 2,
     img: image2,
-    title: 'Product Auditing',
+    title: 'Waste Management',
     content:
-      'Research reports covering the full spectrum of issues facing the internal audit profession. Report captures the breadth and depth of our global profession and the nuances throughout.',
+      'Waste collection: The collection of waste materials from residential, commercial, and industrial sources for proper disposal or recycling.',
   },
   {
     id: 3,
     img: image3,
-    title: 'Cloud Service',
+    title: 'Construction Management',
     content:
-      'Deploy Secure, Reliable, & Scalable Websites, Apps or Processes with Free Cloud Computing.',
+      'Project management: The planning, coordination, and execution of construction projects from start to finish.',
   },
   {
     id: 4,
-    img: image1,
-    title: 'Analytics',
-    content: 'Conceptions of Analysis in Analytic Philosophy. ',
+    img: image4,
+    title: 'Logistics Services',
+    content:
+      'Freight forwarding: The coordination of shipments of goods between suppliers, shippers, and customers. ',
   },
   {
     id: 5,
-    img: image2,
-    title: 'System Security',
+    img: image5,
+    title: 'Waste Management Services',
     content:
-      'Computer security, cybersecurity (cyber security), or information technology security (IT security) ',
+      'Waste collection: The collection of waste materials from residential, commercial, and industrial sources for proper disposal or recycling.',
   },
   {
     id: 6,
-    img: image3,
-    title: 'Dev Ops',
-    content: 'A compound of development (Dev) and operations (Ops)',
+    img: image6,
+    title: 'Ware Housing',
+    content:
+      'Supply chain management: The coordination and management of the movement of goods and materials from suppliers to customers.',
   },
 ];

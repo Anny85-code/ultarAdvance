@@ -24,7 +24,7 @@
     font-family: 'Poppins';
     font-size: 30px;
     font-weight: 500;
-    color: #ff4c0a;
+    color: var(--primary-color);
 }
 .subHead{
     font-family: 'Poppins';

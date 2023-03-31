@@ -6,7 +6,7 @@ import comfort from '../../assets/home/comfort.png';
 
 const ChoosingUs = () =>{
     return (
-      <div style={{ backgroundColor: '#fff1e5' }}>
+      <div style={{ backgroundColor: '#EFF5F5' }}>
         <div className="container overflow-hidden">
           <p
             data-aos="slide-right"
@@ -44,11 +44,11 @@ const ChoosingUs = () =>{
               <img src={comfort} alt="experience" />
               <p className={styles.logo_head}>Comfortability</p>
               <p className={styles.logo_text}>
-                we believe that comfortability is a
-                key factor in providing exceptional service to our clients. We
-                understand that navigating logistics, waste management, and
-                construction can be a daunting task, which is why we strive to
-                make the process as smooth and stress-free as possible.
+                we believe that comfortability is a key factor in providing
+                exceptional service to our clients. We understand that
+                navigating logistics, waste management, and construction can be
+                a daunting task, which is why we strive to make the process as
+                smooth and stress-free as possible.
               </p>
             </div>
           </div>
