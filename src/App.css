@@ -29,7 +29,7 @@
 }
 
 .custom_btn{
-  background-color: #ff4c0a !important;
+  background-color: var(--primary-color) !important;
   border-radius: 0px !important;
   color: white !important;
 }

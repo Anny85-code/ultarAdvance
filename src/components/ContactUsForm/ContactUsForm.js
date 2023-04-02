@@ -25,7 +25,7 @@ const ContactUsForm = () => {
     emailjs
       .sendForm(
         'service_gqlt3z2',
-        'template_d261qjy',
+        'template_rexlafe',
         form.current,
         '5SCFTMx4RiMJdxre-'
       )
@@ -52,16 +52,16 @@ const ContactUsForm = () => {
           <div className="col-md-4" data-aos="fade-right">
             <p className={styles.head}>Address</p>
             <p className={styles.content}>
-              54 Mojsija Zecevica, Berane, Montenegro
+             Km 7 Abak Road, Uyo, Akwa Ibom State, Nigeria
             </p>
           </div>
 
           <div className="col-md-4" data-aos="fade-up" data-aos-offset="100">
             <p className={styles.head}>Contact</p>
             <p className={styles.content}>Mobile : +234-80-32668874</p>
-            <p className={styles.content}>Phone : +00 123 678 90</p>
+            <p className={styles.content}>Phone : +234-80-39453274</p>
             <p className={styles.content}>
-              Email: centurybytelimited@gmail.com
+              Email: hendrexresource@yahoo.com
             </p>
           </div>
 
