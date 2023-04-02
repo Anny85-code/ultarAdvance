@@ -145,7 +145,7 @@ const NavbarMain = () => {
                     }}
                     className={styles.dropdownText}
                   >
-                    Cloud and IoT Based Solutions{' '}
+                    Supply chain management{' '}
                   </NavLink>{' '}
                 </NavDropdown.Item>{' '}
                 <NavDropdown.Item className={styles.dropdownItem}>
@@ -157,7 +157,7 @@ const NavbarMain = () => {
                     }}
                     className={styles.dropdownText}
                   >
-                    IT Consultancy{' '}
+                    Maintenance and repair services
                   </NavLink>{' '}
                 </NavDropdown.Item>{' '}
                 <NavDropdown.Item className={styles.dropdownItem}>
