@@ -169,7 +169,7 @@ const NavbarMain = () => {
                     }}
                     className={styles.dropdownText}
                   >
-                    AI Solutions{' '}
+                    Heavy duty equipment lease
                   </NavLink>{' '}
                 </NavDropdown.Item>{' '}
               </NavDropdown>
