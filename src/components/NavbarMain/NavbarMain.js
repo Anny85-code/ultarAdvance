@@ -121,7 +121,7 @@ const NavbarMain = () => {
                     }}
                     className={styles.dropdownText}
                   >
-                    Social Media Marketing{' '}
+                    Transportation and storage solutions
                   </NavLink>{' '}
                 </NavDropdown.Item>{' '}
                 <NavDropdown.Item className={styles.dropdownItem}>
@@ -133,7 +133,7 @@ const NavbarMain = () => {
                     }}
                     className={styles.dropdownText}
                   >
-                    Quality Assurance{' '}
+                    Recycling Services
                   </NavLink>{' '}
                 </NavDropdown.Item>{' '}
                 <NavDropdown.Item className={styles.dropdownItem}>

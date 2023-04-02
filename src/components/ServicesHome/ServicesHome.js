@@ -11,7 +11,7 @@ const ServicesHome = () => {
         </p>
         <div>
           <p data-aos="slide-left" className={`mx-auto ${styles.subHeading}`}>
-            Experience the difference of our exceptional service
+            Experience the difference of our exceptional services
           </p>
         </div>
 

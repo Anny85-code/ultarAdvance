@@ -1,8 +1,8 @@
 import React from 'react';
 import styles from './SQualityAssurance.module.css';
-import img1 from '../../assets/sQualityAssurance/qaqs.jpg';
-import img2 from '../../assets/sQualityAssurance/qa.jfif';
-import img3 from '../../assets/sQualityAssurance/qs.jpg';
+import img1 from '../../assets/sQualityAssurance/recycle1.jpg';
+import img2 from '../../assets/sQualityAssurance/recycle2.jpg';
+import img3 from '../../assets/sQualityAssurance/recycle3.jpeg';
 
 const QualityAssurance = () => {
   return (
@@ -13,20 +13,22 @@ const QualityAssurance = () => {
           <div className="col-md-6 px-0">
             <div className={styles.topContain}>
               <p className={`${styles.headTop}`}>
-                <span style={{ color: '#ff4c0a' }}>Quality</span>
+                <span style={{ color: 'var(--primary-color)' }}>
+                  Recycling{' '}
+                </span>
               </p>
-              <p className={styles.headTop}>Assurance</p>
+              <p className={styles.headTop}>Services</p>
               <p className={styles.identityTop}>
-                The quality assurance process
+                The recycling service process
               </p>
               <p className={styles.content}>
-                The quality assurance process helps a business ensure its
-                products meet the quality standards set by the company or its
-                industry. Another way to understand quality assurance (QA) is as
-                a company’s process for improving the quality of its products.
-                Many businesses view their QA program as a promise to internal
-                stakeholders and customers that the company will deliver
-                high-quality products that provide a positive user experience..
+                Recycling services are an important aspect of waste management,
+                as they help reduce the amount of waste that ends up in
+                landfills and incinerators. Recycling involves the conversion of
+                waste materials into new products, which can be used in a
+                variety of industries. Recycling services can include the
+                collection, sorting, processing, and distribution of recycled
+                materials.
               </p>
             </div>
           </div>
@@ -41,14 +43,15 @@ const QualityAssurance = () => {
             className={`row ${styles.contain} flex-column-reverse flex-md-row`}
           >
             <div className={`col-md-6 ${styles.middleContain}`}>
-              <p className={styles.heading}> Quality assurance</p>
+              <p className={styles.heading}> Our expertise</p>
               <p className={styles.text}>
-                Quality assurance is a broad process for preventing quality
-                failures. The QA team is involved in all stages of a product’s
-                development: production, testing, packaging, and delivery. In
-                contrast, quality control (QC) is a narrower process. QC focuses
-                on detecting mistakes, errors, or missed requirements in a
-                product.
+                Recycling services typically begin with the collection of
+                recyclable materials, such as paper, plastic, glass, and metal,
+                from homes, businesses, and other sources. These materials are
+                then sorted into different categories and processed to remove
+                any contaminants, such as food or other non-recyclable
+                materials. The processed materials are then sent to
+                manufacturers to be used in the production of new products.
               </p>
             </div>
             <div className="col-md-6">
@@ -66,12 +69,12 @@ const QualityAssurance = () => {
             <div className={`col-md-6 ${styles.bottomContain}`}>
               <p className={styles.heading1}>Custom Approach</p>
               <p className={styles.text1}>
-                Our team
-                operates proactively. They seek to uncover and address the
-                sources of quality problems, such as human error or a business
-                using the wrong materials. Whereas the QC team is reactive,
-                checking the product for mistakes or components not built to
-                specification.
+                Our team operates proactively. Overall, recycling services play
+                an important role in waste management and environmental
+                sustainability. By reducing the amount of waste that ends up in
+                landfills and incinerators, recycling helps to conserve natural
+                resources and reduce environmental impact, while also providing
+                economic benefits to communities.
               </p>
             </div>
           </div>
