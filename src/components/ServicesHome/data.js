@@ -1,7 +1,7 @@
 import construction from '../../assets/hendrexAsset/construction.png';
 import generalcontracting from '../../assets/hendrexAsset/png-contractors.png';
 import waste from '../../assets/hendrexAsset/wastepng.png';
-import generalcontract from '../../assets/hendrexAsset/genralpng.png';
+import generalcontract from '../../assets/hendrexAsset/projectmanage.webp';
 import warehousing from '../../assets/hendrexAsset/warehousepng.jpeg';
 import transport from '../../assets/hendrexAsset/transportpng.png';
 
