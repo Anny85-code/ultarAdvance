@@ -1,7 +1,7 @@
 import img1 from '../../../assets/aboutUs/bottom1.png';
 import img2 from '../../../assets/aboutUs/bottom2.png';
 import img3 from '../../../assets/aboutUs/aboutusmobile2.jpeg';
-import img4 from '../../../assets/aboutUs/aboutusmobile3.jpeg';
+import img4 from '../../../assets/aboutUs/aboutusmobile3.jpg';
 
 const fakeData = [
   {
