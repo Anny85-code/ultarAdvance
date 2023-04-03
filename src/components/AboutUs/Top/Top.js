@@ -2,6 +2,7 @@
 import React from 'react';
 import styles from './Top.module.css';
 import img1 from '../../../assets/aboutUs/img1.png';
+import img1mobile from '../../../assets/aboutUs/aboutmobile.jpeg';
 import img2 from '../../../assets/aboutUs/cargo1.jpeg';
 
 const Top = () => {
@@ -49,6 +50,7 @@ const Top = () => {
           className={`col-md-6 ${styles.imgContain}`}
         >
           <img src={img1} alt="" className={styles.img1} />
+          <img src={img1mobile} alt="" className={styles.img1mobile} />
         </div>
       </div>
       <div data-aos="fade-up" className="row" style={{ textAlign: 'left' }}>
