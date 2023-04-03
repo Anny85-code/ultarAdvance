@@ -81,4 +81,11 @@
         width: 110px;
         font-size: 11px;
     }
+
+    .imgbox {
+    height: 94vh;
+    background: url('../../assets/about2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 }
