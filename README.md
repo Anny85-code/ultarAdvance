@@ -1,6 +1,6 @@
 # Hendrex Resources Limited
 
-## Live preview from [vercel](https://centurybite.vercel.app/)
+## Live preview from [vercel](https://hendrex.vercel.app/)
 
 This is official Hendrex Resources Limited website. It is a single page application built with React and Redux. It is a responsive website that works on all devices.
 
