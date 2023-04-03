@@ -63,11 +63,11 @@
     height: 45px;
   }
 }
-@media screen and (max-width: 1200px) {
+/* @media screen and (max-width: 1200px) {
   .contain {
     margin-left: 30px;
   }
-}
+} */
 
 @media screen and (max-width: 575px) {
   .contain {

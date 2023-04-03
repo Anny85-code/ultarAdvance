@@ -57,7 +57,7 @@ const Footer = () => {
                 Km 7 Abak road Uyo, Akwa Ibom State{' '}
               </p>{' '}
               <p className={styles.text}> hendrexresource@yahoo.com </p>{' '}
-              <p className={styles.text}> (080) 7834 - 7821 </p>{' '}
+              <p className={styles.text}> (080) 3945 - 3274 </p>{' '}
             </div>
             <div className={`col-lg-3 col-sm-6 ${styles.contain}`}>
               <p className={styles.head}> Opening Hours </p>{' '}
