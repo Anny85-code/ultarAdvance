@@ -1,72 +1,77 @@
-.nav_text{
-    font-size: 16px;
-    color: #111111 !important;
-    width: 120px;
-    
+.nav_text {
+  font-size: 16px;
+  color: #111111 !important;
+  width: 120px;
 }
 
-
-.nav_text:hover{
-    padding-top: 6px;
-    font-size: 18px;
-    color: var(--primary-color) !important;
-    font-weight: bold;
+.nav_text:hover {
+  padding-top: 6px;
+  font-size: 18px;
+  color: var(--primary-color) !important;
+  font-weight: bold;
 }
-.active{
-    padding-top: 6px !important;
-    font-size: 18px;
-    color: var(--primary-color) !important;
-    font-weight: bold;
-}
-
-.drop{
-    width: 120px;
+.active {
+  padding-top: 6px !important;
+  font-size: 18px;
+  color: var(--primary-color) !important;
+  font-weight: bold;
 }
 
-.drop:hover .nav_text{
-    color: var(--primary-color) !important;
-    font-weight: bold;
-    cursor: pointer;
-    font-size: 18px;
-    /* padding-top: 7px; */
-}
-.logo{
-    color: var(--primary-color) !important;
-    font-weight: bold;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 40px !important;
-}
-.dropdownText{
-    text-decoration: none;
-    color: #111111;
+.drop {
+  width: 120px;
 }
 
-.dropdownItem:hover .dropdownText{
-    color: var(--primary-color);
+.drop:hover .nav_text {
+  color: var(--primary-color) !important;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 18px;
+  /* padding-top: 7px; */
 }
-.drop a:hover{
-    background-color: white;
+.logo {
+  color: var(--primary-color) !important;
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 40px !important;
+}
+.dropdownText {
+  text-decoration: none;
+  color: #111111;
 }
 
+.dropdownItem:hover .dropdownText {
+  color: var(--primary-color);
+}
+.drop a:hover {
+  background-color: white;
+}
 
 @media screen and (max-width: 991px) {
-    .dropdownItem{
-        text-align: center !important;
-    }
-    .nav_text{
-        width: auto;
-        padding-top: 0px;
-    }
-    .drop{
-        width: auto;
-    }
-    .logo{
-        font-size: 35px !important;
-    }
+  .dropdownItem {
+    text-align: center !important;
+  }
+  .nav_text {
+    width: auto;
+    padding-top: 0px;
+  }
+  .drop {
+    width: auto;
+  }
+  .logo {
+    font-size: 35px !important;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .logo {
+    font-size: 12px !important;
+  }
 }
 
 @media screen and (max-width: 600px) {
-    .logo{
-        font-size: 25px !important;
-    }
+  .logo {
+    font-size: 25px !important;
+  }
 }
+
+
