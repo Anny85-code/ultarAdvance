@@ -110,6 +110,7 @@
   .img1 {
     display: block;
     margin-left: 0px;
+    width: 100%;
   }
 
   .img2 {
@@ -117,5 +118,6 @@
   }
   .img3 {
     display: block;
+    width: 100%;
   }
 }
