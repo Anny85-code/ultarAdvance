@@ -49,7 +49,7 @@ const Footer = () => {
                 Available 24 hours and 7 days a week{' '}
               </p>{' '}
               <p className={styles.text}> hendrexresource@yahoo.com</p>{' '}
-              <p className={styles.text}> (234) 80 - 32668874 </p>{' '}
+              <p className={styles.text}> (234) 80 - 3266 - 8874 </p>{' '}
             </div>
             <div className={`col-lg-3 col-sm-6 ${styles.contain}`}>
               <p className={styles.head}> Head Office </p>{' '}
