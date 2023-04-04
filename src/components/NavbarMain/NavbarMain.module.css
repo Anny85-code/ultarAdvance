@@ -30,8 +30,9 @@
 }
 .logo {
   color: var(--primary-color) !important;
-  font-weight: bold;
-  font-family: 'Montserrat', sans-serif;
+  font-weight: bolder;
+  /* font-family: 'Montserrat', sans-serif; */
+  font-family: 'Roboto', cursive;
   font-size: 40px !important;
 }
 .dropdownText {
