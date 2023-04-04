@@ -38,7 +38,7 @@ const CaseStudy = () =>{
           </p>
           <p
             onClick={() => {
-              filterData('financial');
+              filterData('Logistics Services');
               activeNav(1);
             }}
             className={`${styles.filter} ${active[1] ? styles.active : null}`}
@@ -47,7 +47,7 @@ const CaseStudy = () =>{
           </p>
           <p
             onClick={() => {
-              filterData('human resources');
+              filterData('Waste Management');
               activeNav(2);
             }}
             className={`${styles.filter} ${active[2] ? styles.active : null}`}
@@ -56,7 +56,7 @@ const CaseStudy = () =>{
           </p>
           <p
             onClick={() => {
-              filterData('start up');
+              filterData('Oil and Gas');
               activeNav(3);
             }}
             className={`${styles.filter} ${active[3] ? styles.active : null}`}
@@ -65,7 +65,7 @@ const CaseStudy = () =>{
           </p>
           <p
             onClick={() => {
-              filterData('strategy');
+              filterData('Construction');
               activeNav(4);
             }}
             className={`${styles.filter} ${active[4] ? styles.active : null}`}
