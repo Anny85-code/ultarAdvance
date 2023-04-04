@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './It.module.css';
-import img1 from '../../assets/IT/main1.jpeg';
-import img2 from '../../assets/IT/main2.jpg';
+import img1 from '../../assets/IT/main2.jpg';
+import img2 from '../../assets/IT/main1.jpeg';
 import img3 from '../../assets/IT/main3.jpeg';
 
 const IT = () => {
