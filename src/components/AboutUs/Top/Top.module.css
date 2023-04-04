@@ -15,7 +15,7 @@
 }
 .content {
   font-family: 'Poppins';
-  font-size: 14px;
+  font-size: 16px;
   color: #989e9d;
   margin-top: 14px;
   width: 700px;
@@ -64,7 +64,7 @@
 }
 .contn {
   font-family: 'Poppins';
-  font-size: 14px;
+  font-size: 16px;
   color: #989e9d;
   text-align: left;
 }
@@ -144,6 +144,14 @@
     display: block;
     width: 100%;
     height: auto;
+  }
+
+  .content {
+   font-size: 14px;
+  }
+
+  .contn {
+    font-size: 14px;
   }
 
   .img1 {

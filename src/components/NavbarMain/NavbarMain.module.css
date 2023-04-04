@@ -1,12 +1,12 @@
 .nav_text {
-  font-size: 16px;
+  font-size: 18px;
   color: #111111 !important;
   width: 120px;
 }
 
 .nav_text:hover {
   padding-top: 6px;
-  font-size: 18px;
+  font-size: 20px;
   color: var(--primary-color) !important;
   font-weight: bold;
 }
