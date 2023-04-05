@@ -71,7 +71,7 @@ const Footer = () => {
         style={{ backgroundColor: '#2b2b2b', borderTop: 'solid 1px #707070' }}
       >
         <p className={styles.bottom}>
-          Copyright© {Foter()} &nbsp; All right reserved{' '}
+          Copyright© {Foter()} &nbsp; All rights reserved{' '}
         </p>{' '}
       </div>{' '}
     </>
