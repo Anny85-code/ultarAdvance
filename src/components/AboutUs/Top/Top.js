@@ -36,11 +36,7 @@ const Top = () => {
             transportation and distribution services, as well as warehousing and
             inventory management. Our construction services include project
             management, engineering, and construction for a range of
-            infrastructure projects. At Hendrex Resources Limited, we are
-            committed to delivering high-quality services that meet the needs of
-            our clients while promoting sustainable development. We take pride
-            in our commitment to excellence, and we are dedicated to building
-            long-term relationships with our clients based on trust, integrity,
+            infrastructure projects. At Hendrex Resources Limited, we are committed to delivering high-quality services that meet the needs of our clients while promoting sustainable development. We take pride in our commitment to excellence, and we are dedicated to building long-term relationships with our clients based on trust, integrity,
             and mutual respect.
           </p>
         </div>
