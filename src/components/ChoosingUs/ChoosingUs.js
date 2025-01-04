@@ -2,11 +2,12 @@ import React from "react";
 import styles from './ChoosingUs.module.css';
 import experience from '../../assets/home/experience.png';
 import communication from '../../assets/home/communication.png';
+import csp from '../../assets/home/csp.png';
 import comfort from '../../assets/home/comfort.png';
 
 const ChoosingUs = () =>{
     return (
-      <div style={{ backgroundColor: '#EFF5F5' }}>
+      <div style={{ backgroundColor: "#cbcbdf" }}>
         <div className="container overflow-hidden">
           <p
             data-aos="slide-right"
@@ -31,12 +32,16 @@ const ChoosingUs = () =>{
             </div>
 
             <div data-aos="fade" className="col-md-4">
-              <img src={communication} alt="experience" />
-              <p className={styles.logo_head}>Easy Communication</p>
+              <img src={csp} alt="experience" />
+              <p className={styles.logo_head}>
+                Corporate Social Responsibility
+              </p>
               <p className={styles.logo_text}>
-                Our customers services department is open and social media
-                handlers are available 24/7 to interact with clients at
-                realtime.
+                We prioritize ethical practices, community development, and
+                environmental sustainability, ensuring our business positively
+                impacts society. By partnering with us, you're choosing a
+                company committed to making a difference and fostering trust
+                through responsible and sustainable operations.
               </p>
             </div>
 

@@ -44,7 +44,7 @@ const IT = () => {
             className={`row ${styles.contain} flex-column-reverse flex-md-row`}
           >
             <div className={`col-md-6 ${styles.middleContain}`}>
-              <p className={styles.heading}> IT Consultant</p>
+              <p className={styles.heading}> Problem Solving</p>
               <p className={styles.text}>
                 Repair services involve fixing any issues or malfunctions that
                 arise in equipment or machinery. Repair services can range from

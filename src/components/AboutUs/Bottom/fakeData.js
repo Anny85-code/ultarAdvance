@@ -6,19 +6,19 @@ import img4 from '../../../assets/aboutUs/aboutusmobile3.jpg';
 const fakeData = [
   {
     id: 1,
-    heading: 'We Do with Creativity',
+    heading: "We Do with Creativity",
     img: img1,
     img1: img3,
     content:
-      'Sooner or later, every business faces growth difficulties: drop in sales, stagnation, an increasing number of competitors, changes in demand, etc. Most of these challenges can be solved with marketing. A good marketing strategy identifies the problem accurately and forms an exact solution with a step-by-step implementation program. When planning these steps, we take into account the readiness of the company for its financial and organizational changes.',
+      "Hendrex Resources Limited thrives on creativity, seamlessly integrating innovative solutions into its engineering, logistics, and waste management services. With a forward-thinking approach, the company designs projects that prioritize efficiency and sustainability, ensuring optimal results for clients. From constructing resilient infrastructures to delivering heavy-duty equipment, Hendrex Resources transforms challenges into opportunities with unique strategies tailored to specific needs. Its commitment to creative problem-solving fosters excellence, driving projects beyond conventional expectations. By blending technical expertise with visionary thinking, Hendrex Resources redefines possibilities, offering cutting-edge solutions that stand out in Nigeria’s civil, mechanical, and electrical engineering industries. Creativity fuels its drive for excellence.",
   },
   {
     id: 2,
-    heading: 'We Do with Creativity',
+    heading: "We Do with Creativity",
     img2: img2,
     img3: img4,
     content:
-      'A provider of managed office solutions and technology, Document Solutions features a modern, dynamic and fresh website design perfectly reflects our client’s brand image and resonates with a relevant audience.Dynamic modules help keep large amounts of information structured flawlessly to avoid overwhelming consumers with large paragraphs of text and ease their decision-making process.One of the most notable features our web design team implemented on the Document Solutions website is the strategic use of color, with each of the company’s services and service pages differentiated by a specific shade.This not only contributes to the website’s aesthetic appeal, but also simplifies the user journey by making it more visual.',
+      "Hendrex Resources Limited brings creativity to every project, redefining engineering and logistics with innovative solutions. The company’s approach blends technical expertise with imaginative strategies, delivering tailored results that meet diverse client needs. From constructing durable infrastructures to managing industrial waste, Hendrex Resources transforms complex challenges into opportunities for growth. By embracing modern technologies and unconventional ideas, the company fosters efficiency, sustainability, and excellence. Every project is a testament to its commitment to creative problem-solving, setting new standards in civil, mechanical, and electrical engineering. At Hendrex Resources, creativity isn’t just a value—it’s the foundation for delivering exceptional outcomes.",
   },
 ];
 export default fakeData;

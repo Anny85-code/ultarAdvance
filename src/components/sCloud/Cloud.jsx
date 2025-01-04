@@ -40,7 +40,7 @@ const Cloud = () => {
             className={`row ${styles.contain} flex-column-reverse flex-md-row`}
           >
             <div className={`col-md-6 ${styles.middleContain}`}>
-              <p className={styles.heading}>IoT</p>
+              <p className={styles.heading}>Supplier Relationship Management</p>
               <p className={styles.text}>
                 Supply chain management begins with the procurement of raw
                 materials and components needed for production. It involves

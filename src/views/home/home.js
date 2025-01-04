@@ -4,7 +4,6 @@ import ChoosingUs from "../../components/ChoosingUs";
 import ServicesHome from "../../components/ServicesHome";
 import CaseStudy from "../../components/CaseStudy";
 import Real from "../../components/Real";
-import Footer from "../../components/Footer";
 import AboutUsHome from "../../components/AboutUsHome";
 import Testimonial from "../../components/Testimonial";
 
@@ -45,11 +44,6 @@ const Home = () => {
       {/* Testimonial Section  */}
       <section>
         <Testimonial />
-      </section>
-
-      {/* Footer Section  */}
-      <section>
-        <Footer />
       </section>
     </>
   );

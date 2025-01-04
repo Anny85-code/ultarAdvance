@@ -1,0 +1,130 @@
+.team_bio {
+ background: linear-gradient(180deg, rgba(238, 249, 254, 0.32) 0%, rgba(2, 105, 171, 0.32) 34.38%, rgba(233, 175, 163, 0.2368) 55.22%);
+
+ // md: py-[35px] py-[5px] md:px-[33px] px-[5px] rounded-l-[30px] rounded-[12.56px] h-[200px] md:h-[400px]
+
+ padding: 20px !important;
+ border-radius: 30px 0 30px 0 !important;
+ height: 480px !important;
+
+
+ @media (max-width: 768px) {
+  padding: 10px !important;
+  height: 200px !important;
+ }
+}
+
+.card {
+ position: relative;
+ width: 645.959px;
+ height: 485px;
+ margin: 10px 20px;
+ perspective: 1000px;
+ background: rgb(14, 14, 47);
+ border: 3px solid #1c1c38;
+ border-radius: 30px 0 30px 0;
+
+ @media (max-width: 768px) {
+  height: 200px;
+  margin: 10px 10px;
+  border-radius: 15px 0 15px 0;
+ }
+}
+
+.side {
+ width: 100%;
+ height: 100%;
+ position: absolute;
+ transition: transform 0.5s ease;
+}
+
+.front {
+ z-index: 2;
+}
+
+.back {
+ transform: rotateY(180deg);
+ z-index: 1;
+ background-color: #fff;
+ display: none;
+
+ @media (max-width: 786px) {
+  border-radius: 4px;
+  height: 120%;
+ }
+}
+
+.active {
+ display: block;
+}
+
+.hidden {
+ display: none;
+}
+
+.card:hover .front {
+ transform: rotateY(90deg);
+}
+
+.card:hover .back {
+ display: block;
+ transform: rotateY(0deg);
+}
+
+.details {
+ padding: 20px;
+
+ @media (max-width: 768px) {
+  padding: 10px;
+  height: 100%;
+ }
+}
+
+.cardImage {
+ height: 350px !important;
+
+ @media (max-width: 768px) {
+  height: 150px !important;
+ }
+}
+
+.name {
+ font-size: 20px !important;
+ font-weight: bold !important;
+ color: #00345B;
+
+ @media (max-width: 768px) {
+  font-size: 9px !important;
+ }
+
+}
+
+.des {
+ font-size: 17px !important;
+ font-weight: 600 !important;
+
+ @media (max-width: 768px) {
+   font-size: 10px !important;
+  }
+}
+
+.swipe {
+ color: rgba(0, 52, 91, 0.50);
+  font-size: 13px !important;
+  line-height: 120%;
+  
+  @media (max-width: 768px) {
+    font-size: 12px !important;
+   }
+}
+
+.excellent {
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: -200px !important;
+
+  @media (max-width: 768px) {
+      margin-bottom: 30px !important;
+      font-size: 14px;
+    }
+}

@@ -9,6 +9,8 @@ import QualityAssurance from '../views/sQualityAssurance';
 import Cloud from '../views/sCloud';
 import IT from '../views/IT';
 import AI from '../views/AI';
+import News from '../views/news';
+
 
 const routes = [
     {
@@ -54,6 +56,10 @@ const routes = [
     {
         components: <AI />,
         to: '/ai'
+    },
+    {
+        components: <News />,
+        to: '/news'
     }
 ];
 

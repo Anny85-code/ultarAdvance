@@ -1,10 +1,10 @@
 import React from "react";
 import bg from '../../assets/aboutUs/about2.jpg';
 import SubBanner from '../../components/SubBanner';
-import Footer from "../../components/Footer";
 import Top from "../../components/AboutUs/Top";
 import Middle from "../../components/AboutUs/Middle";
 import Bottom from "../../components/AboutUs/Bottom";
+import Teams from "../../components/AboutUs/teams/Teams";
 
 const aboutUs = () => {
   return (
@@ -28,10 +28,10 @@ const aboutUs = () => {
       <section>
         <Bottom />
       </section>
-
-      {/* Footer Section  */}
+      
+      {/* team section */}
       <section>
-        <Footer />
+        <Teams />
       </section>
     </>
   );

@@ -1,7 +1,6 @@
 import React from "react";
 import SubBanner from '../../components/SubBanner';
 import Services from '../../components/Services';
-import Footer from "../../components/Footer";
 import bg from '../../assets/services2.jpg';
 
 const ServicesHome = () => {
@@ -16,11 +15,6 @@ const ServicesHome = () => {
       {/* Services Section  */}
       <section>
         <Services/>
-      </section>
-
-      {/* Footer Section  */}
-      <section>
-        <Footer />
       </section>
     </>
   );

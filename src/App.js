@@ -1,4 +1,5 @@
-import NavbarMain from './components/NavbarMain'
+import NavbarMain from './components/NavbarMain';
+import Footer from "./components/Footer";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import './App.css';
@@ -34,15 +35,14 @@ function App() {
       <ScrollToTop />
       <div className="App">
         <NavbarMain />
-        <div className='content'>
+        <div className="content">
           <Routes>
-            {
-              routes.map(x => (
-                <Route key={x.to} path={x.to} element={x.components} exact/>
-              ))
-            }
+            {routes.map((x) => (
+              <Route key={x.to} path={x.to} element={x.components} exact />
+            ))}
           </Routes>
         </div>
+        <Footer />
       </div>
     </Router>
   );

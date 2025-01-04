@@ -1,6 +1,5 @@
 import React from "react";
 import SubBanner from '../../components/SubBanner';
-import Footer from "../../components/Footer";
 import bg from '../../assets/service1.jpeg';
 import IndividualService from "../../components/IndividualService";
 
@@ -15,11 +14,6 @@ const individualServices = () => {
       {/* Services Section  */}
       <section>
         <IndividualService />
-      </section>
-
-      {/* Footer Section  */}
-      <section>
-        <Footer />
       </section>
     </>
   );

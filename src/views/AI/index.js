@@ -1,5 +1,4 @@
 import React from 'react';
-import Footer from '../../components/Footer';
 import AISolutions from '../../components/AI/Ai.jsx';
 
 const AI = () => {
@@ -8,11 +7,6 @@ const AI = () => {
       {/* Footer Section  */}
       <section>
         <AISolutions />
-      </section>
-
-      {/* Footer Section  */}
-      <section>
-        <Footer />
       </section>
     </>
   );

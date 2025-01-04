@@ -1,5 +1,4 @@
 import React from 'react';
-import Footer from '../../components/Footer';
 import Consultancy from '../../components/IT/It.jsx';
 
 const IT = () => {
@@ -8,11 +7,6 @@ const IT = () => {
       {/* Footer Section  */}
       <section>
         <Consultancy />
-      </section>
-
-      {/* Footer Section  */}
-      <section>
-        <Footer />
       </section>
     </>
   );

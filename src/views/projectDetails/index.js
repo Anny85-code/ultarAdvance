@@ -1,6 +1,5 @@
 import React from "react";
 import ProjectDetails from '../../components/ProjectDetails';
-import Footer from "../../components/Footer";
 
 const individualServices = () => {
   return (
@@ -8,11 +7,6 @@ const individualServices = () => {
       {/* Banner Section  */}
       <section>
         <ProjectDetails />
-      </section>
-
-      {/* Footer Section  */}
-      <section>
-        <Footer />
       </section>
     </>
   );

@@ -3,6 +3,7 @@ import { Nav, Navbar, Container, NavDropdown } from 'react-bootstrap';
 import styles from './NavbarMain.module.css';
 import { NavLink } from 'react-router-dom';
 import { Link } from 'react-router-dom';
+import logo from '../../../src/assets/newHendrexlogo.png';
 const NavbarMain = () => {
   const [show, setShow] = useState(false);
   const [activeNav, setActiveNav] = useState([true, false, false, false]);
@@ -52,6 +53,7 @@ const NavbarMain = () => {
         expanded={expand}
       >
         <Container>
+        <img src={logo} height={50} width={50} alt='logo' className={styles.icon} />
           <Navbar.Brand href="/" className={styles.logo}>
             {windowSize > 450
               ? 'Hendrex Resources Limited'
