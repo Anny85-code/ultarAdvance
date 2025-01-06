@@ -14,7 +14,7 @@ const fakeData = [
   },
   {
     id: 2,
-    heading: "We Do with Creativity",
+    heading: "We Get Things Done",
     img2: img2,
     img3: img4,
     content:
