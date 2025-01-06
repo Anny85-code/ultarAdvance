@@ -1,5 +1,3 @@
-//newsapi.org/v2/everything?q=civil engineering&apiKey=900485ef383c4b39b8d3c604d489eb7b
-
 import React, { useState, useEffect } from "react";
 import styles from './News.module.scss';
 

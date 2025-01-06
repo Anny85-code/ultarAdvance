@@ -29,7 +29,7 @@ const Real = () => {
               data-aos-offset="150"
               className={styles.subHeading}
             >
-              Improves Customer Experiences
+              Improves Client Experiences
             </p>
             <p
               data-aos="zoom-in"
@@ -37,7 +37,7 @@ const Real = () => {
               className={styles.content}
             >
               We are committed to providing exceptional logistics and waste
-              management services that exceed our customers' expectations. Our
+              management services that exceed our clients' expectations. Our
               top priority is to ensure that all of our customers are completely
               satisfied with our services, and we take great pride in delivering
               prompt, reliable, and efficient solutions.{' '}

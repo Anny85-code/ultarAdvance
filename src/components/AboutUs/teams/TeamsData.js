@@ -61,17 +61,6 @@ const data = [
     // twitterlink: '',
     // linkedInlink: '',
   },
-  // {
-  //   id: 6,
-  //   imageSrc: anny,
-  //   alt: 'anny',
-  //   name: 'ANIEKAN UDO',
-  //   designation: 'Software Engineer',
-  //   bio: "Aniekan Udo is a highly skilled Nigerian software engineer. Aniekan, who has a passion for solving problems programmatically, is dedicated to using cutting-edge technologies to create innovative solutions that make a difference in people's lives. He has worked for both startups and large corporations, giving him a thorough understanding of the unique challenges and opportunities that come with each. He is a creative thinker who is not afraid to push the boundaries of what is possible, and his ability to quickly adapt to new technologies and environments makes him an invaluable member of any team. He is dedicated to continuous improvement and takes great pride in producing work that exceeds expectation.",
-  //   facebooklink: 'https://www.facebook.com/aniekan.udo1?mibextid=ZbWKwL',
-  //   twitterlink: 'https://twitter.com/Annyudo8?t=1v6gVd9yOPNOhXvwHbKLSA&s=09',
-  //   linkedInlink: 'https://www.linkedin.com/in/aniekan-udo',
-  // },
 ];
 
 export default data;
