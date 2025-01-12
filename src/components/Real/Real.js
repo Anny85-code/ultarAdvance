@@ -22,7 +22,7 @@ const Real = () => {
               data-aos-offset="150"
               className={styles.heading}
             >
-              Real
+              Core Values
             </p>
             <p
               data-aos="slide-left"

@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from "react";
+import { ClipLoader } from "react-spinners";
 import styles from './News.module.scss';
+import defaultImage from '../../../src/assets/anews.jpg';
 
 const NewsFetch = () => {
   const [articles, setArticles] = useState([]);
@@ -29,7 +31,14 @@ const NewsFetch = () => {
     fetchNews();
   }, []);
 
-  if (loading) return <p>Loading...</p>;
+  if (loading) {
+    return (
+      <div className={styles.spinnerContainer}>
+        <ClipLoader color="#3498db" size={50} /> 
+        <p>Loading...</p>
+      </div>
+    );
+  }
   if (error) return <p>Error: {error}</p>;
 
   function formatDate(dateString) {
@@ -47,7 +56,7 @@ const NewsFetch = () => {
       <div className={styles.cont}>
         {articles.slice(0, 20).map((article, index) => (
           <div key={index} className={styles.card}>
-            <img src={article.urlToImage} alt="pix" className={styles.img} />
+            <img src={article.urlToImage ? article.urlToImage : defaultImage} alt="pix" className={styles.img} />
             <p className={styles.date}>{formatDate(article.publishedAt)}</p>
             <h2 className={styles.title}>{article.title}</h2>
             <p className={styles.des}>{article.description}</p>

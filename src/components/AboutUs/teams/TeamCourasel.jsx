@@ -133,6 +133,7 @@ h-[14px]"
               onMouseLeave={handleMouseLeave}
             >
               <div className={`${styles.side} ${styles.front}`}>
+                 <div className="absolute inset-0 bg-gradient-to-b from-blue-200/20 via-blue-200/10 to-white/20 rounded-tl-[30px]" />
                 <img
                   src={item.imageSrc}
                   width={645.959}
