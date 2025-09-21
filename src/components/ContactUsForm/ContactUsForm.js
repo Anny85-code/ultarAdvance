@@ -59,9 +59,8 @@ const ContactUsForm = () => {
           <div className="col-md-4" data-aos="fade-up" data-aos-offset="100">
             <p className={styles.head}>Contact</p>
             <p className={styles.content}>Mobile : +234-80-32668874</p>
-            <p className={styles.content}>Phone : +234-80-39453274</p>
-            <p className={styles.content}>
-              Email: hendrexresource@yahoo.com
+            <p className={styles.content_email}>
+              Email: ultraadvanceintegratedservicesltd.com
             </p>
           </div>
 

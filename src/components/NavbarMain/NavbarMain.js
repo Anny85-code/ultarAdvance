@@ -3,7 +3,7 @@ import { Nav, Navbar, Container, NavDropdown } from 'react-bootstrap';
 import styles from './NavbarMain.module.css';
 import { NavLink } from 'react-router-dom';
 import { Link } from 'react-router-dom';
-import logo from '../../../src/assets/newHendrexlogo.png';
+import logo from '../../../src/assets/a12.png';
 const NavbarMain = () => {
   const [show, setShow] = useState(false);
   const [activeNav, setActiveNav] = useState([true, false, false, false]);
@@ -41,8 +41,8 @@ const NavbarMain = () => {
     <>
       <Navbar
         style={{
-          backgroundColor: 'white',
-          boxShadow: '1px 1px 10px rgb(0 0 0 / 0.4)',
+          backgroundColor: "white",
+          boxShadow: "1px 1px 10px rgb(0 0 0 / 0.4)",
         }}
         variant="light"
         expand="lg"
@@ -53,40 +53,51 @@ const NavbarMain = () => {
         expanded={expand}
       >
         <Container>
-        <img src={logo} height={50} width={50} alt='logo' className={styles.icon} />
-          <Navbar.Brand href="/" className={styles.logo}>
-            {windowSize > 450
-              ? 'Hendrex Resources Limited'
-              : 'Hendrex Resources'}
-          </Navbar.Brand>
+          <div className={styles.logo_container}>
+            <div className={styles.logo_sub_container}>
+              {" "}
+              <img
+                src={logo}
+                height={70}
+                width={70}
+                alt="logo"
+                className={styles.icon}
+              />
+              <Navbar.Brand href="/" className={styles.logo}>
+               
+                  <span className={styles.color_span}>Ultra</span>Advance
+                
+              </Navbar.Brand>
+            </div>
+          </div>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
-            <Nav style={{ marginLeft: 'auto' }}>
+            <Nav style={{ marginLeft: "auto" }}>
               <NavLink
                 to="/"
                 className={`${styles.nav_text} nav-link ${
-                  activeNav[0] ? styles.active : ''
+                  activeNav[0] ? styles.active : ""
                 }`}
-                style={{ marginTop: '8px' }}
+                style={{ marginTop: "8px" }}
                 onClick={() => {
                   handleActiveNav(0);
                   closeNav();
                 }}
               >
-                Home{' '}
+                Home{" "}
               </NavLink>
               <NavLink
                 to="/aboutUs"
                 className={`${styles.nav_text} nav-link ${
-                  activeNav[1] ? styles.active : ''
+                  activeNav[1] ? styles.active : ""
                 }`}
-                style={{ marginTop: '8px' }}
+                style={{ marginTop: "8px" }}
                 onClick={() => {
                   handleActiveNav(1);
                   closeNav();
                 }}
               >
-                About us{' '}
+                About us{" "}
               </NavLink>
               <NavDropdown
                 show={show}
@@ -96,7 +107,7 @@ const NavbarMain = () => {
                 title={
                   <Link
                     to="/services"
-                    style={{ textDecoration: 'none' }}
+                    style={{ textDecoration: "none" }}
                     className={styles.dropicon}
                     onClick={() => {
                       handleActiveNav(2);
@@ -105,11 +116,11 @@ const NavbarMain = () => {
                   >
                     <span
                       className={`${styles.nav_text} my-auto ${
-                        activeNav[2] ? styles.active : ''
+                        activeNav[2] ? styles.active : ""
                       }`}
                     >
-                      Services{' '}
-                    </span>{' '}
+                      Services{" "}
+                    </span>{" "}
                   </Link>
                 }
                 id="basic-nav-dropdown"
@@ -124,8 +135,8 @@ const NavbarMain = () => {
                     className={styles.dropdownText}
                   >
                     Transportation and storage solutions
-                  </NavLink>{' '}
-                </NavDropdown.Item>{' '}
+                  </NavLink>{" "}
+                </NavDropdown.Item>{" "}
                 <NavDropdown.Item className={styles.dropdownItem}>
                   <NavLink
                     to="/qualityAssurance"
@@ -136,8 +147,8 @@ const NavbarMain = () => {
                     className={styles.dropdownText}
                   >
                     Recycling Services
-                  </NavLink>{' '}
-                </NavDropdown.Item>{' '}
+                  </NavLink>{" "}
+                </NavDropdown.Item>{" "}
                 <NavDropdown.Item className={styles.dropdownItem}>
                   <NavLink
                     to="/cloud"
@@ -147,9 +158,9 @@ const NavbarMain = () => {
                     }}
                     className={styles.dropdownText}
                   >
-                    Supply chain management{' '}
-                  </NavLink>{' '}
-                </NavDropdown.Item>{' '}
+                    Supply chain management{" "}
+                  </NavLink>{" "}
+                </NavDropdown.Item>{" "}
                 <NavDropdown.Item className={styles.dropdownItem}>
                   <NavLink
                     to="/it"
@@ -160,8 +171,8 @@ const NavbarMain = () => {
                     className={styles.dropdownText}
                   >
                     Maintenance and repair services
-                  </NavLink>{' '}
-                </NavDropdown.Item>{' '}
+                  </NavLink>{" "}
+                </NavDropdown.Item>{" "}
                 <NavDropdown.Item className={styles.dropdownItem}>
                   <NavLink
                     to="/ai"
@@ -172,26 +183,26 @@ const NavbarMain = () => {
                     className={styles.dropdownText}
                   >
                     Heavy duty equipment lease
-                  </NavLink>{' '}
-                </NavDropdown.Item>{' '}
+                  </NavLink>{" "}
+                </NavDropdown.Item>{" "}
               </NavDropdown>
               <NavLink
                 to="/contactUs"
                 className={` ${styles.nav_text} nav-link ${
-                  activeNav[3] ? styles.active : ''
+                  activeNav[3] ? styles.active : ""
                 }`}
-                style={{ marginTop: '8px' }}
+                style={{ marginTop: "8px" }}
                 onClick={() => {
                   handleActiveNav(3);
                   closeNav();
                 }}
               >
-                Contact Us{' '}
-              </NavLink>{' '}
-            </Nav>{' '}
-          </Navbar.Collapse>{' '}
-        </Container>{' '}
-      </Navbar>{' '}
+                Contact Us{" "}
+              </NavLink>{" "}
+            </Nav>{" "}
+          </Navbar.Collapse>{" "}
+        </Container>{" "}
+      </Navbar>{" "}
     </>
   );
 };
