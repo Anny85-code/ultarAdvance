@@ -53,7 +53,7 @@ const NavbarMain = () => {
         expanded={expand}
       >
         <Container>
-          <div className={styles.logo_container}>
+          <div href="/" className={styles.logo_container}>
             <div className={styles.logo_sub_container}>
               {" "}
               <img
@@ -64,9 +64,7 @@ const NavbarMain = () => {
                 className={styles.icon}
               />
               <Navbar.Brand href="/" className={styles.logo}>
-               
-                  <span className={styles.color_span}>Ultra</span>Advance
-                
+                <span className={styles.color_span}>Ultra</span>Advance
               </Navbar.Brand>
             </div>
           </div>

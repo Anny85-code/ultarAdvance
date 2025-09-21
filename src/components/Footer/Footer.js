@@ -93,7 +93,7 @@ const Footer = () => {
                 </div>{" "}
                 <div className={styles.textCont}>
                   <img src={globe} alt="icon" />{" "}
-                  <p className={styles.text}> www.ultraadvance.com </p>
+                  <p className={styles.text}> www.ultraadvance.services </p>
                 </div>{" "}
               </div>{" "}
             </div>
