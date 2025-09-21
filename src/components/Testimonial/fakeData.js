@@ -1,10 +1,10 @@
-import cm from '../../assets/cm.jpeg';
-import image1 from '../../assets/home/test1.jpeg';
-import image2 from '../../assets/home/test3.jpeg';
-import image3 from '../../assets/home/test1.png';
-import image4 from '../../assets/home/testimonial1.png';
-import image5 from '../../assets/home/test4.jpeg';
-import image6 from '../../assets/home/test2.webp';
+import cm from "../../assets/cm.jpg";
+import image1 from "../../assets/home/test1.jpeg";
+import image2 from "../../assets/home/test3.jpeg";
+import image3 from "../../assets/home/test1.png";
+import image4 from "../../assets/home/testimonial1.png";
+import image5 from "../../assets/home/test4.jpeg";
+import image6 from "../../assets/home/test2.webp";
 
 export const fakeData = [
   {
@@ -13,7 +13,7 @@ export const fakeData = [
     name: "Chuma Nwokafor",
     profession: "Construction Manager",
     message:
-      "As a construction manager, working with Hendrex Resources Limited has been an absolute pleasure. Their commitment to quality, timely delivery, and attention to detail is unmatched. Their professionalism and dedication to meeting project needs make them a reliable partner for any construction endeavor. Highly recommended!",
+      "As a construction manager, working with UtraAdvance Limited has been an absolute pleasure. Their commitment to quality, timely delivery, and attention to detail is unmatched. Their professionalism and dedication to meeting project needs make them a reliable partner for any construction endeavor. Highly recommended!",
   },
   {
     id: 2,

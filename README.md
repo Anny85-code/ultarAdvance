@@ -1,19 +1,17 @@
-# Hendrex Resources Limited
+# UtraAdvance Limited
 
 ## Live preview from [vercel](https://hendrex.vercel.app/)
 
-This is official Hendrex Resources Limited website. It is a single page application built with React and Redux. It is a responsive website that works on all devices.
+This is official UtraAdvance Limited website. It is a single page application built with React and Redux. It is a responsive website that works on all devices.
 
 ## Description
 
-Hendrex resources limited specialize in providing a range of services to help businesses achieve their goals in a sustainable and efficient manner. With decades of combined experience in logistics, waste management, and construction, our team is uniquely positioned to provide innovative solutions to the challenges facing modern businesses. We understand that every business is different, which is why we offer a customized approach to each of our services. Whether you need assistance with transporting goods, managing waste, or building a new facility, we have the expertise and resources to get the job done right.
+UtraAdvance limited specialize in providing a range of services to help businesses achieve their goals in a sustainable and efficient manner. With decades of combined experience in logistics, waste management, and construction, our team is uniquely positioned to provide innovative solutions to the challenges facing modern businesses. We understand that every business is different, which is why we offer a customized approach to each of our services. Whether you need assistance with transporting goods, managing waste, or building a new facility, we have the expertise and resources to get the job done right.
 
-Hendrex Resources |
- | :---: 
+| UtraAdvance |
+| :---------: |
+
 ![screencapture-localhost-3000-2023-04-03-00_46_57](https://user-images.githubusercontent.com/87186552/229385605-709237c7-e79b-4a67-aec4-eaf5ad3a20dd.png)
-
-
-
 
 ## Built With
 

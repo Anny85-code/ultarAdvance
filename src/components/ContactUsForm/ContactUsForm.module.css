@@ -3,7 +3,7 @@
   margin-bottom: 68px;
 }
 .heading {
-  font-family: 'Poppins';
+  font-family: "Poppins";
   font-size: 40px;
   color: #222a41;
   font-weight: bold;
@@ -11,21 +11,29 @@
   width: 400px;
 }
 .head {
-  font-family: 'Poppins';
+  font-family: "Poppins";
   font-size: 20px;
   color: #222a41;
   font-weight: bold;
   margin-top: 76px;
 }
 .content {
-  font-family: 'Poppins';
+  font-family: "Poppins";
   font-size: 20px;
   color: #232323;
   opacity: 0.6;
   margin-bottom: 5px;
 }
+.content_email {
+  font-family: "Poppins";
+  font-size: 15px;
+  color: #232323;
+  opacity: 0.6;
+  margin-bottom: 5px;
+  font-style: italic;
+}
 .email {
-  font-family: 'Poppins';
+  font-family: "Poppins";
   font-size: 30px;
   color: #222a41;
   font-weight: bold;
@@ -33,7 +41,7 @@
   margin-bottom: 43px;
 }
 .label {
-  font-family: 'Poppins';
+  font-family: "Poppins";
   font-size: 16px;
   color: #232323;
   margin-bottom: 9px;

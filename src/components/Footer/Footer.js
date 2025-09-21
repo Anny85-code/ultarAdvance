@@ -16,7 +16,7 @@ const Footer = () => {
         <div className="container">
           <div className={`${styles.row}`}>
             <div className={`col-lg-3 col-sm-6 ${styles.contain}`}>
-              <p className={styles.logo}> Hendrex Resources Limited </p>{" "}
+              <p className={styles.logo}>UltraAdvance Limited </p>{" "}
               <p className={styles.text}>
                 Building the future requires a strong foundation, a clear
                 vision, and a trusted partner. We are committed to providing the
@@ -93,7 +93,7 @@ const Footer = () => {
                 </div>{" "}
                 <div className={styles.textCont}>
                   <img src={globe} alt="icon" />{" "}
-                  <p className={styles.text}> www.hendrexresources.com </p>
+                  <p className={styles.text}> www.ultraadvance.com </p>
                 </div>{" "}
               </div>{" "}
             </div>
