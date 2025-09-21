@@ -1,6 +1,6 @@
 # UtraAdvance Limited
 
-## Live preview from [vercel](https://hendrex.vercel.app/)
+<!-- ## Live preview from [vercel](https://hendrex.vercel.app/) -->
 
 This is official UtraAdvance Limited website. It is a single page application built with React and Redux. It is a responsive website that works on all devices.
 
@@ -12,6 +12,8 @@ UtraAdvance limited specialize in providing a range of services to help business
 | :---------: |
 
 ![screencapture-localhost-3000-2023-04-03-00_46_57](https://user-images.githubusercontent.com/87186552/229385605-709237c7-e79b-4a67-aec4-eaf5ad3a20dd.png)
+
+<img width="1358" height="7577" alt="Image" src="https://github.com/user-attachments/assets/1c88709e-cf25-4735-9df5-52de9af9cfb2" />
 
 ## Built With
 
