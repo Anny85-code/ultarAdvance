@@ -100,7 +100,7 @@ const HeroSection = () => {
               }
             `}
             >
-              <h1 className="text-5xl font-bold mb-4 h-[70px] bg-gradient-to-r from-gray-500 via-purple-500 to-blue-500 inline-block text-transparent bg-clip-text">
+              <h1 className="text-5xl font-bold mb-4 bg-gradient-to-r from-gray-500 via-purple-500 to-blue-500 inline-block text-transparent bg-clip-text">
                 {slides[currentIndex].title}
               </h1>
               <p className="text-xl font-semibold">
