@@ -8,6 +8,29 @@ const NewsFetch = () => {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
 
+  // useEffect(() => {
+  //   const fetchNews = async () => {
+  //     try {
+  //       const response = await fetch(
+  //         "https://newsapi.org/v2/everything?q=civil%20engineering&apiKey=900485ef383c4b39b8d3c604d489eb7b"
+  //       );
+
+  //       if (!response.ok) {
+  //         throw new Error(`HTTP error! status: ${response.status}`);
+  //       }
+
+  //       const data = await response.json();
+  //       setArticles(data.articles);
+  //     } catch (err) {
+  //       setError(err.message);
+  //     } finally {
+  //       setLoading(false);
+  //     }
+  //   };
+
+  //   fetchNews();
+  // }, []);
+
   useEffect(() => {
     const fetchNews = async () => {
       try {
@@ -19,7 +42,6 @@ const NewsFetch = () => {
         if (!response.ok) {
           throw new Error(`HTTP error! status: ${response.status}`);
         }
-
         const data = await response.json();
         setArticles(data.articles);
       } catch (err) {
@@ -31,6 +53,7 @@ const NewsFetch = () => {
 
     fetchNews();
   }, []);
+
 
   if (loading) {
     return (
