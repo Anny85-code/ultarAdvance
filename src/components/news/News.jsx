@@ -8,6 +8,14 @@ const NewsFetch = () => {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
 
+
+  const stripHtml = (html) => {
+    const tmp = document.createElement("div");
+    tmp.innerHTML = html;
+    return tmp.textContent || tmp.innerText || "";
+  };
+
+
   // useEffect(() => {
   //   const fetchNews = async () => {
   //     try {
@@ -31,19 +39,43 @@ const NewsFetch = () => {
   //   fetchNews();
   // }, []);
 
+  // useEffect(() => {
+  //   const fetchNews = async () => {
+  //     try {
+  //       const response = await fetch(
+          // "https://newsapi.org/v2/everything?q=civil%20engineering&apiKey=900485ef383c4b39b8d3c604d489eb7b"
+          // "https://gnews.io/api/v4/search?q=civil engineering&apikey=049364a76ab11cec7f2a99f93cde60a6"
+  //         "https%3A%2F%2Fnews.google.com%2Frss%2Fsearch%3Fq%3Dcivil%2Bengineering"
+  //       );
+
+  //       if (!response.ok) {
+  //         throw new Error(`HTTP error! status: ${response.status}`);
+  //       }
+  //       const data = await response.json();
+  //       setArticles(data.articles);
+  //     } catch (err) {
+  //       setError(err.message);
+  //     } finally {
+  //       setLoading(false);
+  //     }
+  //   };
+
+  //   fetchNews();
+  // }, []);
+
   useEffect(() => {
     const fetchNews = async () => {
       try {
         const response = await fetch(
-          // "https://newsapi.org/v2/everything?q=civil%20engineering&apiKey=900485ef383c4b39b8d3c604d489eb7b"
-          "https://gnews.io/api/v4/search?q=civil engineering&apikey=049364a76ab11cec7f2a99f93cde60a6"
+          "https://api.rss2json.com/v1/api.json?rss_url=https%3A%2F%2Fnews.google.com%2Frss%2Fsearch%3Fq%3Dcivil%2Bengineering"
         );
 
         if (!response.ok) {
           throw new Error(`HTTP error! status: ${response.status}`);
         }
+
         const data = await response.json();
-        setArticles(data.articles);
+        setArticles(data.items || []); // rss2json uses "items"
       } catch (err) {
         setError(err.message);
       } finally {
@@ -80,11 +112,15 @@ const NewsFetch = () => {
       <div className={styles.cont}>
         {articles.slice(0, 20).map((article, index) => (
           <div key={index} className={styles.card}>
-            <img src={article.urlToImage ? article.urlToImage : defaultImage} alt="pix" className={styles.img} />
-            <p className={styles.date}>{formatDate(article.publishedAt)}</p>
+            <img
+              src={article.thumbnail ? article.thumbnail : defaultImage}
+              alt="pix"
+              className={styles.img}
+            />
+            <p className={styles.date}>{formatDate(article.pubDate)}</p>
             <h2 className={styles.title}>{article.title}</h2>
-            <p className={styles.des}>{article.description}</p>
-            <a href={article.url} target="_blank" rel="noopener noreferrer">
+            <p className={styles.des}>{stripHtml(article.description)}</p>
+            <a href={article.link} target="_blank" rel="noopener noreferrer">
               Read more
             </a>
           </div>
