@@ -26,7 +26,6 @@ import oopbg from '../../assets/projectDetails/oil1.jpeg';
 import blocks from '../../assets/projectDetails/blocks1.jpg';
 import blocks2 from '../../assets/projectDetails/blocks2.jpg';
 import blocks3 from '../../assets/projectDetails/blocks3.jpg';
-import blocks4 from '../../assets/projectDetails/blocks4.jpg';
 import blocks5 from '../../assets/projectDetails/blocks5.jpg';
 
 const fakeData = [
