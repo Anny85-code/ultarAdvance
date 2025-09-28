@@ -9,7 +9,6 @@ import freight from '../../assets/home/transportpng.png';
 import webmain from '../../assets/individualService/webmain.jfif';
 import webmain2 from '../../assets/individualService/webmain2.png';
 import ecommerce2 from '../../assets/individualService/eccommerce2.jfif';
-
 const data = [
   {
     id: 1,
