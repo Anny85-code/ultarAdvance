@@ -1,7 +1,6 @@
 import React from "react";
 import styles from './ChoosingUs.module.css';
 import experience from '../../assets/home/experience.png';
-import communication from '../../assets/home/communication.png';
 import csp from '../../assets/home/csp.png';
 import comfort from '../../assets/home/comfort.png';
 

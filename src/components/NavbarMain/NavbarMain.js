@@ -35,8 +35,6 @@ const NavbarMain = () => {
     sessionStorage.setItem('NavbarMain', JSON.stringify(temp));
   };
 
-  const windowSize = window.innerWidth;
-
   return (
     <>
       <Navbar
