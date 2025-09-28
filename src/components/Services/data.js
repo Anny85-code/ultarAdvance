@@ -8,12 +8,8 @@ import custom from '../../assets/home/warehousepng.jpeg';
 import freight from '../../assets/home/transportpng.png';
 import webmain from '../../assets/individualService/webmain.jfif';
 import webmain2 from '../../assets/individualService/webmain2.png';
-import webservice from '../../assets/individualService/webservice2.jfif';
-import webservice2 from '../../assets/individualService/webservice4.jfif';
-import ecommerce from '../../assets/individualService/eccommerce.jfif';
 import ecommerce2 from '../../assets/individualService/eccommerce2.jfif';
-import cooperatewebsite from '../../assets/individualService/cooperateweb.jfif';
-import cooperate2 from '../../assets/individualService/cooperateweb2.jpg';
+
 const data = [
   {
     id: 1,
