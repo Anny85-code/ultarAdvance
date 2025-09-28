@@ -15,54 +15,6 @@ const NewsFetch = () => {
     return tmp.textContent || tmp.innerText || "";
   };
 
-
-  // useEffect(() => {
-  //   const fetchNews = async () => {
-  //     try {
-  //       const response = await fetch(
-  //         "https://newsapi.org/v2/everything?q=civil%20engineering&apiKey=900485ef383c4b39b8d3c604d489eb7b"
-  //       );
-
-  //       if (!response.ok) {
-  //         throw new Error(`HTTP error! status: ${response.status}`);
-  //       }
-
-  //       const data = await response.json();
-  //       setArticles(data.articles);
-  //     } catch (err) {
-  //       setError(err.message);
-  //     } finally {
-  //       setLoading(false);
-  //     }
-  //   };
-
-  //   fetchNews();
-  // }, []);
-
-  // useEffect(() => {
-  //   const fetchNews = async () => {
-  //     try {
-  //       const response = await fetch(
-  //         // "https://newsapi.org/v2/everything?q=civil%20engineering&apiKey=900485ef383c4b39b8d3c604d489eb7b"
-  //         "https://gnews.io/api/v4/search?q=civil engineering&apikey=049364a76ab11cec7f2a99f93cde60a6"
-  //         // "https%3A%2F%2Fnews.google.com%2Frss%2Fsearch%3Fq%3Dcivil%2Bengineering"
-  //       );
-
-  //       if (!response.ok) {
-  //         throw new Error(`HTTP error! status: ${response.status}`);
-  //       }
-  //       const data = await response.json();
-  //       setArticles(data.articles);
-  //     } catch (err) {
-  //       setError(err.message);
-  //     } finally {
-  //       setLoading(false);
-  //     }
-  //   };
-
-  //   fetchNews();
-  // }, []);
-
   useEffect(() => {
     const fetchNews = async () => {
       try {
@@ -113,7 +65,7 @@ const NewsFetch = () => {
         {articles.slice(0, 20).map((article, index) => (
           <div key={index} className={styles.card}>
             <img
-              src={article.thumbnail ? article.thumbnail : defaultImage}
+              src={article.thumbnail || article.enclosure?.url || defaultImage}
               alt="pix"
               className={styles.img}
             />
