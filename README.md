@@ -2,7 +2,7 @@
 
 ## Live preview from [vercel](https://ultar-advance.vercel.app/)
 
-This is official UtraAdvance Limited website. It is a single page application built with React and Redux. It is a responsive website that works on all devices.
+This is official UtraAdvance Integrated Services Limited website. It is a single page application built with React and Redux. It is a responsive website that works on all devices.
 
 ## Description
 
