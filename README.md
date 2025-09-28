@@ -6,7 +6,7 @@ This is official UtraAdvance Limited website. It is a single page application bu
 
 ## Description
 
-UtraAdvance limited specialize in providing a range of services to help businesses achieve their goals in a sustainable and efficient manner. With decades of combined experience in logistics, waste management, and construction, our team is uniquely positioned to provide innovative solutions to the challenges facing modern businesses. We understand that every business is different, which is why we offer a customized approach to each of our services. Whether you need assistance with transporting goods, managing waste, or building a new facility, we have the expertise and resources to get the job done right.
+UtraAdvance Integrated Services limited specialize in providing a range of services to help businesses achieve their goals in a sustainable and efficient manner. With decades of combined experience in logistics, waste management, and construction, our team is uniquely positioned to provide innovative solutions to the challenges facing modern businesses. We understand that every business is different, which is why we offer a customized approach to each of our services. Whether you need assistance with transporting goods, managing waste, or building a new facility, we have the expertise and resources to get the job done right.
 
 | UtraAdvance |
 | :---------: |
