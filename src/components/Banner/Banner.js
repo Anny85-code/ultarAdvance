@@ -58,7 +58,7 @@ const HeroSection = () => {
     }, 7000);
 
     return () => clearInterval(transitionInterval);
-  }, []);
+  }, [slides.length]);
 
   return (
     <div className="tailwind">
